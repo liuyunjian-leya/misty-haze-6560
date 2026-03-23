@@ -25,7 +25,7 @@ async function handleRequest(request) {
         })
 
         // 自定义增加 header
-        newResponse.headers.append("custom-ER-add", "ER header for image")
+        newResponse.headers.append("custom-ER-add", "ER header v2 for image")
 
         return newResponse
       }
